@@ -1,5 +1,5 @@
 package classes;
-
+//Ailton
 public class MemoriaPrograma {
 	int cp;
 	private byte[] dadosPrograma = new byte[2048];
