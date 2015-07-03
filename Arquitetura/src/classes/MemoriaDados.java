@@ -5,14 +5,13 @@ public class MemoriaDados {
 	
 
 	public void escreveNaMemoria(int pos, byte dado) {
-		if(pos<0 || pos>4093){
+		if(pos<0 || pos>4095){
 			System.out.println(pos);
 			System.out.println("Overflow");
 		}
 		if(pos>=2048 && pos<3935){
 			System.out.println("Memoria inacessivel");
-		}else{
-			
+		}else{	
 		dadosNaMemoria[pos]=dado;
 		}
 	}
